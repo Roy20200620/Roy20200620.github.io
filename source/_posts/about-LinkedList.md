@@ -1,8 +1,8 @@
 ---
 title: 単方向LinkedListを反転する
 date: 2022-01-05 21:25:00
-tags: アルゴリズム
-categories: アルゴリズム
+tags: linkedList
+categories: algorithm
 comment: true
 ---
 
