@@ -187,7 +187,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">編集日</span>
-                <time title="修正日：2022-05-18 13:58:22" itemprop="dateModified" datetime="2022-05-18T13:58:22+09:00">2022-05-18</time>
+                <time title="修正日：2022-05-18 16:52:24" itemprop="dateModified" datetime="2022-05-18T16:52:24+09:00">2022-05-18</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -211,21 +211,14 @@
 
       
           <h2 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h2><p>port xxxx が既に利用されているため、該当ポートに他のスレッドが起動できないのは原因です。</p>
-<p>!&lt;–more–&gt;</p>
-<h2 id="解決方法"><a href="#解決方法" class="headerlink" title="解決方法"></a>解決方法</h2><ol>
-<li>該当ポートに何が使われているのを確認する。<code>&#123;xxxx&#125;</code>は確認したいポート番号を書き替えてください。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo lsof -i:&#123;xxxx&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-<ul>
-<li>該当ポートが利用されていない場合、何も表示ないです。</li>
-<li>該当ポートが利用されている場合、以下のように情報が表示されます。<img src="/2022/05/15/port-xxxx-is-not-open-on-localhost/lsof_image.png" class=""></li>
-</ul>
-<ol start="2">
-<li><p>該当ポートをキールする。<code>&#123;PID&#125;</code>はキールしたいPIDを指定してください。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">kill</span> &#123;PID&#125;</span><br></pre></td></tr></table></figure></li>
-<li><p>再度手順１のコマンドを叩いて、成功した場合、ターミナルには何も出力しないです。</p>
-</li>
-</ol>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/05/15/port-xxxx-is-not-open-on-localhost/#more" rel="contents">
+                続きを読む &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
